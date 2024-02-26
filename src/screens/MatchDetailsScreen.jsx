@@ -34,7 +34,7 @@ const MatchDetailsScreen = ({ route, navigation }) => {
             <View style={Styles.images}>
               <View style={Styles.teamA}>
                 <Image style={Styles.imgTop} source={{uri:match.participants[0].image_path}} />
-                <Text style={{ color: 'white',
+                <Text style={{ color: 'black',
                             fontWeight: 'bold',fontSize: 20,}}
                             >{match.participants[0].name}
                             </Text>
@@ -43,7 +43,7 @@ const MatchDetailsScreen = ({ route, navigation }) => {
     height: 50,}} source={require('../../assets/vs.png')}/>
                 <View style={Styles.teamA}>
                 <Image style={Styles.imgTop} source={{uri:match.participants[1].image_path}}/>
-                <Text style={{ color: 'white',
+                <Text style={{ color: 'black',
                             fontWeight: 'bold',fontSize: 20,}}>
                         {match.participants[1].name}
                 </Text>

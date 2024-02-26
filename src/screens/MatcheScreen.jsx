@@ -39,14 +39,14 @@ const Matche = ({navigation}) => {
       <MatchFilterContainer screen={'Matches'}/>
         <View > 
           <ScrollView horizontal>
-               <TouchableOpacity onPress={()=>{setMatches(Copiermatches)}} style={{backgroundColor:"#A9A9A9",width:100,height:40,borderRadius:10,alignItems:'center',justifyContent:'center',padding:5,marginLeft:2}}>
+               <TouchableOpacity onPress={()=>{setMatches(Copiermatches)}} style={{backgroundColor:"#2A7CB3",width:100,height:40,borderRadius:10,alignItems:'center',justifyContent:'center',padding:5,marginLeft:2}}>
                <Text>All Matches</Text>
             </TouchableOpacity>
             {
               matches.map((match)=>(
             <TouchableOpacity onPress={()=>{
               handaleFilter(match.league_id)
-            }} style={{backgroundColor:"#A9A9A9",width:100,height:40,borderRadius:10,alignItems:'center',justifyContent:'center',padding:5,marginLeft:2}}>
+            }} style={{backgroundColor:"#2A7CB3",width:100,height:40,borderRadius:10,alignItems:'center',justifyContent:'center',padding:5,marginLeft:2}}>
                  <Text>{match.league.name}</Text>
               </TouchableOpacity>
               ))

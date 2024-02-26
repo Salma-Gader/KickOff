@@ -23,7 +23,7 @@ const FavoriteButton = ({ match }) => {
       <Icon
         name={isFavorite ? 'heart' : 'heart-outline'}
         size={30}
-        color={ 'red'}
+        color={ '#DC0022'}
       />
     </TouchableOpacity>
   );

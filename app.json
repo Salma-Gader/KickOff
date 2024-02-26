@@ -4,7 +4,7 @@
     "slug": "KickOff-ReactNative",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/06d75b8e067f219ce110c498d386aff6.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash1.png",
@@ -24,7 +24,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/06d75b8e067f219ce110c498d386aff6.jpg"
     }
   }
 }
